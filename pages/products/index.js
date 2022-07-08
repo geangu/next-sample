@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
-const index = () => {
+const Index = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -41,4 +41,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
